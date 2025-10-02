@@ -16,7 +16,7 @@ class Solution:
                 return [seen[complement], i]
             seen[num] = i
 
-# Quick local test (won't run on LeetCode — LeetCode handles input automatically)
+# Quick local test (won't run on LeetCode, LeetCode handles input automatically)
 if __name__ == "__main__":
     s = Solution()
     print(s.twoSum([2,7,11,15], 9))   # -> [0,1]
